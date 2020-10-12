@@ -3,7 +3,7 @@ html {
 }
 
 .hero {
-    background-image: url('img/hero-img.jpg');
+    background-image: url('./img/Sun-Tornado.svg');
     background-size: cover;
 }
 
