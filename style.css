@@ -1,0 +1,25 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.hero {
+    background: url('/img/hero-img.jpg');
+    background-size: cover;
+}
+
+.navbar.active {
+    background-color: #00d1b2;
+    transition: all .5s;
+}
+
+.active-class {
+    background-color: #00b89c;
+}
+
+.navbar-item.scrollActive {
+    background-color: #00b89c;
+}
+
+.g-text {
+    color: hsl(171, 100%, 41%);
+}
