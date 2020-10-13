@@ -2,9 +2,15 @@ html {
     scroll-behavior: smooth;
 }
 
+section {
+    width: 100%;
+    overflow: hidden;
+}
+
 .hero {
     background-image: url('./img/hero-bg.jpg');
     background-size: cover;
+    overflow: hidden;
 }
 
 .navbar.active {

@@ -21,7 +21,6 @@ modalClose.addEventListener('click', () => {
   // Toggle is-active class on burger icon
 menuIcon.addEventListener('click', () => {
   menuLinks.classList.toggle('is-active')
-  menuIcon.classList.toggle('is-active')
 })
 
   // Adding event listener on links  
@@ -50,7 +49,6 @@ menuIcon.addEventListener('click', () => {
 function toggleNavbar(clicked) {
 if (clicked) {
   menuLinks.classList.remove('is-active')
-  menuIcon.classList.remove('is-active')
   }
 }
 
@@ -101,7 +99,6 @@ window.addEventListener('scroll', () => {
   
   links.forEach((link) => {
     let section = document.querySelector(link.hash)
-    console.log(link.hash);
     if (section.offsetTop <= fromTop && section.offsetTop + section.offsetHeight > fromTop) {
       link.classList.add('scrollActive')
     } else {
